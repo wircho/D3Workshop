@@ -1,2 +1,3 @@
 # D3Workshop
-Introductory class to Xcode/Swift at D3
+## Course summary:
+1. Create a new Xcode project.
