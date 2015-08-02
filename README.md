@@ -87,11 +87,11 @@ request(.GET, url).responseJSON { (_, _, object, _) -> Void in
 
 Montréal Trends:
 
-`http://api.whatthetrend.com/api/v2/trends.json?api_key=[MY_API_KEY]&woeid=3534`
+`http://api.whatthetrend.com/api/v2/trends.json?woeid=3534`
 
 World Trends:
 
-`http://api.whatthetrend.com/api/v2/trends.json?api_key=[MY_API_KEY]`
+`http://api.whatthetrend.com/api/v2/trends.json`
 
 
 
