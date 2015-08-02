@@ -24,6 +24,27 @@ cd [PATH_TO_YOUR_PROJECT]
 pod init
 ```
 
+**How should your Podfile look like for the HelloWorld project:**
+
+```
+platform :ios, "8.0"
+use_frameworks!
+
+target 'HelloWorld' do
+
+	pod 'SwiftyJSON', '~> 2.2.1'
+
+	pod 'Alamofire', '~> 1.3'
+
+end
+
+target 'HelloWorldTests' do
+
+end
+```
+
+
+
 ## Links and Images:
 [Download Xcode](https://developer.apple.com/xcode/)
 
