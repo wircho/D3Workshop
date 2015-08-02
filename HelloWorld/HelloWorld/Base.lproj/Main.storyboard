@@ -16,9 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBr-ex-aOu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBr-ex-aOu">
                                 <rect key="frame" x="93" y="40" width="190" height="48"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLP-TC-Fyd">
+                                <rect key="frame" x="141" y="548" width="93" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OzO-nc-x2G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="refresh" image="refresh.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQN-DR-8yJ">
+                                <rect key="frame" x="20" y="108" width="335" height="420"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,7 +46,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="fBr-ex-aOu" secondAttribute="centerX" id="BjL-Sa-QDw"/>
+                            <constraint firstItem="VLP-TC-Fyd" firstAttribute="top" secondItem="EQN-DR-8yJ" secondAttribute="bottom" constant="20" id="D71-eX-sG5"/>
                             <constraint firstItem="fBr-ex-aOu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="PQc-GU-8e0"/>
+                            <constraint firstAttribute="trailing" secondItem="EQN-DR-8yJ" secondAttribute="trailing" constant="20" id="S56-zA-ptC"/>
+                            <constraint firstItem="EQN-DR-8yJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ym8-fa-JMI"/>
+                            <constraint firstAttribute="centerX" secondItem="VLP-TC-Fyd" secondAttribute="centerX" id="dHt-n0-pIY"/>
+                            <constraint firstItem="EQN-DR-8yJ" firstAttribute="top" secondItem="fBr-ex-aOu" secondAttribute="bottom" constant="20" id="o4h-5n-cKP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VLP-TC-Fyd" secondAttribute="bottom" constant="20" id="ofY-p2-e5h"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Hello World" image="world.png" id="XTm-Ak-GtF"/>
@@ -49,7 +75,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Bj6-T4-dQn"/>
-                        <segue destination="XfT-JH-muh" kind="relationship" relationship="viewControllers" id="T7C-31-wmu"/>
+                        <segue destination="9mo-jY-y2D" kind="relationship" relationship="viewControllers" id="nf3-2l-DLx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1go-XW-Qzz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,40 +83,66 @@
             <point key="canvasLocation" x="-108.5" y="-440.5"/>
         </scene>
         <!--Hello Montréal-->
-        <scene sceneID="Pry-RG-DDF">
+        <scene sceneID="WOu-gj-0Q4">
             <objects>
-                <viewController id="XfT-JH-muh" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9mo-jY-y2D" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="AKs-tr-g78"/>
-                        <viewControllerLayoutGuide type="bottom" id="arI-hG-iM4"/>
+                        <viewControllerLayoutGuide type="top" id="m2N-RM-ywT"/>
+                        <viewControllerLayoutGuide type="bottom" id="BnZ-xE-fLE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7mD-tw-Lf1">
+                    <view key="view" contentMode="scaleToFill" id="Nhu-fC-Y9c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Montréal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcY-VK-dLc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Hello Montréal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxQ-vG-SJz">
                                 <rect key="frame" x="69" y="40" width="238" height="48"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCT-Go-hqI">
+                                <rect key="frame" x="140" y="548" width="96" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ASy-y7-0eD"/>
+                                </constraints>
+                                <state key="normal" title="refresh" image="refresh.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so7-hn-MAo">
+                                <rect key="frame" x="20" y="108" width="335" height="420"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OcY-VK-dLc" firstAttribute="top" secondItem="AKs-tr-g78" secondAttribute="bottom" constant="20" id="WaM-DC-TSY"/>
-                            <constraint firstAttribute="centerX" secondItem="OcY-VK-dLc" secondAttribute="centerX" id="YSh-yv-rBs"/>
+                            <constraint firstItem="so7-hn-MAo" firstAttribute="top" secondItem="UxQ-vG-SJz" secondAttribute="bottom" constant="20" id="3EJ-Mu-hfM"/>
+                            <constraint firstItem="BnZ-xE-fLE" firstAttribute="top" secondItem="ZCT-Go-hqI" secondAttribute="bottom" constant="20" id="6Jp-sP-eIA"/>
+                            <constraint firstItem="ZCT-Go-hqI" firstAttribute="top" secondItem="so7-hn-MAo" secondAttribute="bottom" constant="20" id="MnO-n8-TiX"/>
+                            <constraint firstAttribute="centerX" secondItem="ZCT-Go-hqI" secondAttribute="centerX" id="SkR-VI-kV3"/>
+                            <constraint firstItem="UxQ-vG-SJz" firstAttribute="top" secondItem="m2N-RM-ywT" secondAttribute="bottom" constant="20" id="YBg-PG-mVo"/>
+                            <constraint firstItem="so7-hn-MAo" firstAttribute="leading" secondItem="Nhu-fC-Y9c" secondAttribute="leading" constant="20" id="eRX-Sb-Q5u"/>
+                            <constraint firstAttribute="centerX" secondItem="UxQ-vG-SJz" secondAttribute="centerX" id="psb-VW-CVK"/>
+                            <constraint firstAttribute="trailing" secondItem="so7-hn-MAo" secondAttribute="trailing" constant="20" id="v3b-Xo-2C6"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hello Montréal" image="montreal.png" id="XN3-mx-4dU"/>
+                    <tabBarItem key="tabBarItem" title="Hello Montréal" image="montreal.png" id="XFL-D9-6bz"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pcR-AY-eWf" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08h-5W-3aQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="187.5" y="409.5"/>
+            <point key="canvasLocation" x="175.5" y="411.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="montreal.png" width="30" height="30"/>
+        <image name="refresh.png" width="40" height="50"/>
         <image name="world.png" width="30" height="30"/>
     </resources>
 </document>

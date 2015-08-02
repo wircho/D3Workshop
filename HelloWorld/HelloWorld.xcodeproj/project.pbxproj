@@ -15,6 +15,7 @@
 		91F1900F1B6D86DA000B8E9B /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1900E1B6D86DA000B8E9B /* HelloWorldTests.swift */; };
 		91F190191B6D9755000B8E9B /* montreal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F190181B6D9755000B8E9B /* montreal@2x.png */; };
 		91F1901B1B6D9762000B8E9B /* world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F1901A1B6D9762000B8E9B /* world@2x.png */; };
+		91F1901D1B6DA2A8000B8E9B /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F1901C1B6DA2A8000B8E9B /* refresh@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		91F1900E1B6D86DA000B8E9B /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
 		91F190181B6D9755000B8E9B /* montreal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "montreal@2x.png"; sourceTree = "<group>"; };
 		91F1901A1B6D9762000B8E9B /* world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world@2x.png"; sourceTree = "<group>"; };
+		91F1901C1B6DA2A8000B8E9B /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				91F190181B6D9755000B8E9B /* montreal@2x.png */,
 				91F1901A1B6D9762000B8E9B /* world@2x.png */,
+				91F1901C1B6DA2A8000B8E9B /* refresh@2x.png */,
 				91F18FF81B6D86DA000B8E9B /* AppDelegate.swift */,
 				91F18FFA1B6D86DA000B8E9B /* ViewController.swift */,
 				91F18FFC1B6D86DA000B8E9B /* Main.storyboard */,
@@ -202,6 +205,7 @@
 				91F1901B1B6D9762000B8E9B /* world@2x.png in Resources */,
 				91F190191B6D9755000B8E9B /* montreal@2x.png in Resources */,
 				91F190031B6D86DA000B8E9B /* LaunchScreen.xib in Resources */,
+				91F1901D1B6DA2A8000B8E9B /* refresh@2x.png in Resources */,
 				91F190001B6D86DA000B8E9B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
