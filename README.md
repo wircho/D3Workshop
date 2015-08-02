@@ -8,6 +8,10 @@
 ## Links and Info:
 [Download Xcode](https://developer.apple.com/xcode/)
 
+[Refresh Icon](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/refresh@2x.png)
+
+![](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/refresh@2x.png)
+
 [Montréal Logo](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/montreal@2x.png)
 
 ![](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/montreal@2x.png)
