@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91E1F8831B6DA80100D1CD75 /* MontrealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1F8821B6DA80100D1CD75 /* MontrealViewController.swift */; };
 		91F18FF91B6D86DA000B8E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F18FF81B6D86DA000B8E9B /* AppDelegate.swift */; };
-		91F18FFB1B6D86DA000B8E9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F18FFA1B6D86DA000B8E9B /* ViewController.swift */; };
+		91F18FFB1B6D86DA000B8E9B /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F18FFA1B6D86DA000B8E9B /* WorldViewController.swift */; };
 		91F18FFE1B6D86DA000B8E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F18FFC1B6D86DA000B8E9B /* Main.storyboard */; };
 		91F190001B6D86DA000B8E9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F18FFF1B6D86DA000B8E9B /* Images.xcassets */; };
 		91F190031B6D86DA000B8E9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F190011B6D86DA000B8E9B /* LaunchScreen.xib */; };
@@ -29,10 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91E1F8821B6DA80100D1CD75 /* MontrealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MontrealViewController.swift; sourceTree = "<group>"; };
 		91F18FF31B6D86DA000B8E9B /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F18FF71B6D86DA000B8E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91F18FF81B6D86DA000B8E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91F18FFA1B6D86DA000B8E9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91F18FFA1B6D86DA000B8E9B /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
 		91F18FFD1B6D86DA000B8E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91F18FFF1B6D86DA000B8E9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91F190021B6D86DA000B8E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -87,7 +89,8 @@
 				91F1901A1B6D9762000B8E9B /* world@2x.png */,
 				91F1901C1B6DA2A8000B8E9B /* refresh@2x.png */,
 				91F18FF81B6D86DA000B8E9B /* AppDelegate.swift */,
-				91F18FFA1B6D86DA000B8E9B /* ViewController.swift */,
+				91F18FFA1B6D86DA000B8E9B /* WorldViewController.swift */,
+				91E1F8821B6DA80100D1CD75 /* MontrealViewController.swift */,
 				91F18FFC1B6D86DA000B8E9B /* Main.storyboard */,
 				91F18FFF1B6D86DA000B8E9B /* Images.xcassets */,
 				91F190011B6D86DA000B8E9B /* LaunchScreen.xib */,
@@ -224,7 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F18FFB1B6D86DA000B8E9B /* ViewController.swift in Sources */,
+				91E1F8831B6DA80100D1CD75 /* MontrealViewController.swift in Sources */,
+				91F18FFB1B6D86DA000B8E9B /* WorldViewController.swift in Sources */,
 				91F18FF91B6D86DA000B8E9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +427,7 @@
 				91F190141B6D86DA000B8E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91F190151B6D86DA000B8E9B /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				91F190171B6D86DA000B8E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

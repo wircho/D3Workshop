@@ -7,7 +7,7 @@
         <!--Hello World-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WorldViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -85,7 +85,7 @@
         <!--Hello Montréal-->
         <scene sceneID="WOu-gj-0Q4">
             <objects>
-                <viewController id="9mo-jY-y2D" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9mo-jY-y2D" customClass="MontrealViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m2N-RM-ywT"/>
                         <viewControllerLayoutGuide type="bottom" id="BnZ-xE-fLE"/>
