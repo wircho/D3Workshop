@@ -8,10 +8,14 @@
 ## Some important links:
 [Download Xcode](https://developer.apple.com/xcode/)
 
-[Montreal Logo](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/montreal@2x.png)
+[Montreal Logo
 
 ![](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/montreal@2x.png)
+](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/montreal@2x.png)
 
-[World Logo](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/world@2x.png)
+[World Logo
 
 ![](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/world@2x.png)
+](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/world@2x.png)
+
+
