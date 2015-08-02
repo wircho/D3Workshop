@@ -9,15 +9,15 @@
 8. **Basic Swift code** to change a label's text.
 9. 
 
-## Some How To's:
+## How To's:
 
-How to install CocoaPods:
+**How to install CocoaPods:**
 
 ```
 sudo gem install cocoapods
 ```
 
-How to init CocoaPods in your project:
+**How to init CocoaPods in your project:**
 
 ```
 cd [PATH_TO_YOUR_PROJECT]
