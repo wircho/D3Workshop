@@ -4,6 +4,8 @@
 2. Adding basic **storyboard elements** and constraints.
 4. Adding and editing **view controllers** on the storyboard.
 5. **Adding files** (such as **images**) to a project.
+6. **Assigning Swift classes to view controllers**.
+7. **Adding outlets** between storyboard elements and Swift classes.
 
 ## Links and Info:
 [Download Xcode](https://developer.apple.com/xcode/)
