@@ -35,6 +35,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchRefresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9O8-Js-Ga0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQN-DR-8yJ">
                                 <rect key="frame" x="20" y="108" width="335" height="420"/>
@@ -57,6 +60,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Hello World" image="world.png" id="XTm-Ak-GtF"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="EQN-DR-8yJ" id="bVF-4i-eCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +119,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchRefresh:" destination="9mo-jY-y2D" eventType="touchUpInside" id="T2G-hg-gze"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="so7-hn-MAo">
                                 <rect key="frame" x="20" y="108" width="335" height="420"/>
@@ -135,6 +144,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Hello Montréal" image="montreal.png" id="XFL-D9-6bz"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="so7-hn-MAo" id="4kB-XA-2OF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="08h-5W-3aQ" sceneMemberID="firstResponder"/>
             </objects>

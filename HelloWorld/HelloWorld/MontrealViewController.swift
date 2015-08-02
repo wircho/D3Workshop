@@ -10,6 +10,14 @@ import UIKit
 
 class MontrealViewController: UIViewController {
 
+    @IBOutlet weak var contentLabel: UILabel!
+    
+    @IBAction func touchRefresh(sender: AnyObject) {
+        
+        contentLabel.text = "Updated Content!"
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
