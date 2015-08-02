@@ -45,6 +45,12 @@ target 'HelloWorldTests' do
 end
 ```
 
+**How to install your Pods after adding them to your Podfile**
+
+```
+pod install
+```
+
 **Code to show trending topics:**
 
 ```
