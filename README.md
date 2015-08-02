@@ -22,6 +22,17 @@
 
 ![](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/world@2x.png)
 
+How to install CocoaPods:
+
+`sudo gem install cocoapods`
+
+How to init CocoaPods in your project:
+
+```
+cd [PATH_TO_PROJECT]
+pod init
+```
+
 Montréal Trends:
 
 `http://api.whatthetrend.com/api/v2/trends.json?api_key=[MY_API_KEY]&woeid=3534`
