@@ -5,7 +5,7 @@
 4. Adding and editing **view controllers** on the storyboard.
 5. **Adding files** (such as **images**) to a project.
 
-## Some important links:
+## Links:
 [Download Xcode](https://developer.apple.com/xcode/)
 
 [Montreal Logo](https://raw.githubusercontent.com/wircho/D3Workshop/master/HelloWorld/HelloWorld/montreal@2x.png)
