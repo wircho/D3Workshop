@@ -7,7 +7,7 @@
 6. **Assigning Swift classes to view controllers**.
 7. **Adding outlets** between storyboard elements and Swift classes.
 8. **Basic Swift code** to change a label's text.
-9. 
+9. **Adding CocoaPods** to your project **(Using other developers' code)**.
 
 ## How To's:
 
