@@ -24,7 +24,9 @@
 
 How to install CocoaPods:
 
-`sudo gem install cocoapods`
+```
+sudo gem install cocoapods
+```
 
 How to init CocoaPods in your project:
 
