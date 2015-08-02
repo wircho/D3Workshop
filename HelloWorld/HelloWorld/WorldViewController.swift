@@ -8,12 +8,34 @@
 
 import UIKit
 
+import Alamofire
+import SwiftyJSON
+import BrightFutures
+
 class WorldViewController: UIViewController {
     @IBOutlet weak var contentLabel: UILabel!
 
     @IBAction func touchRefresh(sender: AnyObject) {
         
-        contentLabel.text = "Updated Content!"
+        let url = "http://api.whatthetrend.com/api/v2/trends.json"
+        
+        request(.GET, url).responseJSON { (_, _, object, _) -> Void in
+            
+            Queue.main.async {
+                
+                if let obj:AnyObject = object {
+                    
+                    let json = JSON(obj)
+                    
+                    self.contentLabel.text = "\n".join(json["trends"].arrayValue.map{$0["name"].stringValue})
+                    
+                }else {
+                    self.contentLabel.text = "ERROR"
+                }
+                
+            }
+            
+        }
         
     }
     
@@ -25,6 +47,12 @@ class WorldViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.touchRefresh(self)
     }
 
 
