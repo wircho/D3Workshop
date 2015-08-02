@@ -45,6 +45,29 @@ target 'HelloWorldTests' do
 end
 ```
 
+**Code to show trending topics:**
+
+```
+let url = "[TRENDS_URL (see below)]"
+        
+request(.GET, url).responseJSON { (_, _, object, _) -> Void in
+            
+    Queue.main.async {
+                
+        if let obj:AnyObject = object {
+                    
+            let json = JSON(obj)
+                    
+            self.contentLabel.text = "\n".join(json["trends"].arrayValue.map{$0["name"].stringValue})
+                    
+        }else {
+            self.contentLabel.text = "ERROR"
+        }
+                
+    }
+            
+}
+```
 
 
 ## Links and Images:
