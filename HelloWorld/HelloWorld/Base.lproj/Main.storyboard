@@ -29,7 +29,7 @@
                             <constraint firstItem="fBr-ex-aOu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="PQc-GU-8e0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hello World" id="XTm-Ak-GtF"/>
+                    <tabBarItem key="tabBarItem" title="Hello World" image="world.png" id="XTm-Ak-GtF"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -81,7 +81,7 @@
                             <constraint firstAttribute="centerX" secondItem="OcY-VK-dLc" secondAttribute="centerX" id="YSh-yv-rBs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hello Montréal" id="XN3-mx-4dU"/>
+                    <tabBarItem key="tabBarItem" title="Hello Montréal" image="montreal.png" id="XN3-mx-4dU"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcR-AY-eWf" sceneMemberID="firstResponder"/>
@@ -89,4 +89,8 @@
             <point key="canvasLocation" x="187.5" y="409.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="montreal.png" width="30" height="30"/>
+        <image name="world.png" width="30" height="30"/>
+    </resources>
 </document>
