@@ -32,9 +32,11 @@ use_frameworks!
 
 target 'HelloWorld' do
 
-	pod 'SwiftyJSON', '~> 2.2.1'
+    pod 'SwiftyJSON', '~> 2.2.1'
 
-	pod 'Alamofire', '~> 1.3'
+    pod 'Alamofire', '~> 1.3'
+    
+    pod 'BrightFutures'
 
 end
 
